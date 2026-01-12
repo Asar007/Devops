@@ -1,24 +1,30 @@
-# Devops
+# DevOps Learning Repository 🚀
 
-A collection of practical Linux and DevOps CLI tools, scripts, and utilities designed to help with system checks, monitoring, and automation tasks.
+## 📌 About
+This repository is an open-source DevOps learning hub for beginners and intermediate learners.
+It contains real-world examples, scripts, notes, and projects.
 
-This repository combines useful shell scripts, cheat sheets, and examples to help DevOps beginners and intermediate users learn and automate common tasks.
+## 🛠 Tech Stack
+- Linux
+- Bash / Shell
+- Git & GitHub
+- Docker
+- Kubernetes
+- CI/CD
+- Cloud (AWS basics)
 
-## 📌 What’s Inside
+## 📂 Repository Structure
+Devops/
+ ├── linux/
+ ├── shell-scripting/
+ ├── docker/
+ ├── kubernetes/
+ ├── ci-cd/
+ └── cloud/
 
-- **linux-cli-projects/** – Scripts and utilities for Linux system health and monitoring  
-- **system-health-auditor/** – Shell scripts to check CPU, memory, disk, uptime, network, etc.  
-- **devops_linux_cli_cheat_sheet.txt** – Handy cheat sheet for Linux/DevOps commands
+## 🤝 How to Contribute
+Contributions are welcome!
+Please read CONTRIBUTING.md before submitting a pull request.
 
-## 🚀 Features
-
-- Lightweight Bash scripts for checking system health
-- Simple tools that work on any Linux environment
-- Designed for learning and improving practical DevOps skills
-
-## 📥 Getting Started
-
-### Clone the Repo
-```bash
-git clone https://github.com/iamdevdhanush/Devops.git
-cd Devops
+## ⭐ Support
+If you find this useful, give it a star ⭐
