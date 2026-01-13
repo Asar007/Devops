@@ -13,7 +13,7 @@ This directory contains a minimal example to introduce Docker container basics u
 Navigate to the `docker/basics/` directory and run the following command to package the Dockerfile into an image named `hello-docker`:
 
 ```bash
-docker build -t hello-docker .
+docker build -t hello-docker 
 ```
 ### Step 2: Run the Container
 Once the build is complete, run an instance of the image:
