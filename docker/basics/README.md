@@ -25,3 +25,29 @@ You should see the following message in your terminal:
 ```Plaintext
 Hello, World! Welcome to your first Docker container.
 ```
+### 3. Useful Commands
+Here are some commands to help you manage what you just created.<br>
+**List Images**<br>
+Check which images currently exist on your machine. You should see hello-docker in this list.
+
+```Bash
+docker images
+```
+**Check Container Status**<br>
+Since our container runs a simple echo command, it exits immediately after finishing. To see it, you must use the -a (all) flag to list stopped containers.
+```Bash
+# List only running containers (won't show our hello-world)
+docker ps
+# List ALL containers (including stopped ones)
+docker ps -a
+```
+**Clean Up** <br>
+To delete the specific container and image we created:
+1. Remove the stopped container
+```Bash
+docker rm <container_id>
+```
+2. Remove the image
+```
+docker rmi hello-docker
+```
